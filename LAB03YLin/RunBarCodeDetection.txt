@@ -1,0 +1,7 @@
+image=imread('barCodesDetection.png');
+info=load('info.txt');//file info.txt phải xóa dòng chữ đầu
+
+[binary_image,label_mat] = barCodesDetection(image,info)
+imshow(binary_image)
+imshow(label_mat)
+

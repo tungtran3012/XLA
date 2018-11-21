@@ -1,0 +1,6 @@
+git add .
+git remote add origin https://github.com/tungtran3012/PhpTest.git
+git push -u origin master
+tungtran3012
+thanhtung0172...
+
